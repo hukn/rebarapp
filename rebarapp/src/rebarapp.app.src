@@ -1,0 +1,10 @@
+{application, rebarapp,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {mod, { rebarapp_app, []}},
+  {env, []},
+  {applications, [kernel, stdlib, crypto]}
+  ]}.
+
